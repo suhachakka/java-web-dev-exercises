@@ -1,5 +1,4 @@
 package org.launchcode.java.demos.lsn5unittesting.main;
-
 public class Car {
 
     private String make;

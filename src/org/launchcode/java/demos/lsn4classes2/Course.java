@@ -1,6 +1,10 @@
 package org.launchcode.java.demos.lsn4classes2;
 
+
+import org.launchcode.java.demos.lsn3classes1.Student;
+
 import java.util.ArrayList;
+//package src.org.launchcode.java.demos.lsn4classes2.Student;
 
 public class Course {
     private String topic;
