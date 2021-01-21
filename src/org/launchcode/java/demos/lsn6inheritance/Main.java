@@ -25,8 +25,9 @@ public class Main {
 
         System.out.println(plainCat.noise()); // prints "Meeeeeeooooowww!"
         System.out.println(garField.noise()); // prints "Hello, my name is Cheshire!"
-
-
+        HouseCat suki = new HouseCat("Suki",12);
+        CatOwner Annie = new CatOwner(suki);
+        Annie.feedTheCat();
 
     }
 }

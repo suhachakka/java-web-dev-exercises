@@ -6,11 +6,22 @@ public class Teacher {
     private String subject;
     private int yearsTeaching;
 
+    public  Teacher(){}
     public Teacher(String firstName, String lastName, String subject, int yearsTeaching) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.subject = subject;
         this.yearsTeaching = yearsTeaching;
+    }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", subject='" + subject + '\'' +
+                ", yearsTeaching=" + yearsTeaching +
+                '}';
     }
 
     public void setFirstName(String firstName) {

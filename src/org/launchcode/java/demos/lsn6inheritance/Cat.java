@@ -1,6 +1,7 @@
 package org.launchcode.java.demos.lsn6inheritance;
 
-public abstract class Cat {
+//public abstract class Cat {
+public abstract class Cat implements Feedable{
 
     private boolean tired = false;
     private boolean hungry = false;

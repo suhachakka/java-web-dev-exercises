@@ -6,6 +6,6 @@ import java.util.ArrayList;
 
 public class Course {
     private ArrayList<Student> students;
-    private String maths;
-    private String science;
+    private String Instructor;
+    private String CourseName;
 }
